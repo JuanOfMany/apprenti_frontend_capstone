@@ -1,0 +1,28 @@
+.center-placeholder {
+    text-align: center !important; 
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    border-color: .15s ease-in-out, box-shadow .15s ease-in-out;
+ }
+
+ body {
+  margin:0px;
+  padding: 0px;
+ }
+
+ table {
+   table-layout:fixed;
+ }
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
